@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/youten/AndroidStudioProjects/FeelBadSend/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="/Users/youten/work/android/FeelBadSend/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/youten/AndroidStudioProjects/FeelBadSend/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-7bc52315f2d566aef359092ae39993b8faf71631.jar" />
+        <dex dex="/Users/youten/work/android/FeelBadSend/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-6e5081c0cb858d4d6adf2043c5c0d1583c0398ef.jar" />
+    </item>
+    <item
+        jar="/Users/youten/work/android/FeelBadSend/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/youten/work/android/FeelBadSend/app/build/intermediates/pre-dexed/debug/classes-db9b92c675473bbd0b16179c31cbfe1cdfa34bb6.jar" />
     </item>
     <item
         jar="/Users/youten/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
-        <dex dex="/Users/youten/AndroidStudioProjects/FeelBadSend/app/build/intermediates/pre-dexed/debug/commons-lang3-3.1-75bcf608f77a60cf052c374bbeb266ca46e8a4da.jar" />
-    </item>
-    <item
-        jar="/Users/youten/AndroidStudioProjects/FeelBadSend/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/youten/AndroidStudioProjects/FeelBadSend/app/build/intermediates/pre-dexed/debug/classes-1e5f0099c6124ce65c33ee90c954e64cea835ee0.jar" />
+        <dex dex="/Users/youten/work/android/FeelBadSend/app/build/intermediates/pre-dexed/debug/commons-lang3-3.1-75bcf608f77a60cf052c374bbeb266ca46e8a4da.jar" />
     </item>
     <item
         jar="/Users/youten/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/youten/AndroidStudioProjects/FeelBadSend/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-470688cdb6c45e52357b44103bafd8e24dfd59e7.jar" />
+        <dex dex="/Users/youten/work/android/FeelBadSend/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-470688cdb6c45e52357b44103bafd8e24dfd59e7.jar" />
     </item>
     <item
-        jar="/Users/youten/AndroidStudioProjects/FeelBadSend/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="/Users/youten/work/android/FeelBadSend/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/youten/AndroidStudioProjects/FeelBadSend/app/build/intermediates/pre-dexed/debug/classes-f512b2d7e53f8ead1993d188d0e3b3eb6f19f693.jar" />
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/youten/work/android/FeelBadSend/app/build/intermediates/pre-dexed/debug/classes-6ad20c8b3c6717b6af6520facd66cec31c850df5.jar" />
     </item>
 
 </items>

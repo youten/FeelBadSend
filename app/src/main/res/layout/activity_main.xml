@@ -84,7 +84,7 @@
                 android:padding="@dimen/section_padding"
                 android:background="@color/primary"
                 android:textColor="@android:color/white"
-                android:text="@string/body_label_text" />
+                android:text="@string/group_body_label_text" />
             <!-- Prefix -->
             <TextView
                 android:layout_width="match_parent"
