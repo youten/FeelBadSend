@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">体調不良につき…</string>
+
+    <!-- main -->
+    <string name="mailto_label_text">To</string>
+    <string name="mailcc_label_text">Cc</string>
+    <string name="mailbcc_label_text">Bcc</string>
+    <string name="subject_label_text">件名</string>
+    <string name="text_label_text">メッセージ本体</string>
+    <string name="prefix_label_text">ヘッダ</string>
+    <string name="group_body_label_text">本体</string>
+    <string name="body_label_text">本文</string>
+    <string name="suffix_label_text">フッタ</string>
+    <string name="send_text">送信（メーラ起動）</string>
+
+    <!-- prefrence -->
+    <string name="pref_title">設定</string>
+    <string name="pref_advanced">Advanced</string>
+    <string name="pref_mailto1_text">To 1</string>
+    <string name="pref_mailto2_text">To 2</string>
+    <string name="pref_mailto3_text">To 3</string>
+    <string name="pref_mailcc1_text">Cc 1</string>
+    <string name="pref_mailcc1_text_depend">Cc 1（To 1に連動）</string>
+    <string name="pref_mailcc2_text">Cc 2</string>
+    <string name="pref_mailcc2_text_depend">Cc 2（To 2に連動）</string>
+    <string name="pref_mailcc3_text">Cc 3</string>
+    <string name="pref_mailcc3_text_depend">Cc 3（To 3に連動）</string>
+    <string name="pref_mailbcc1_text">Bcc 1</string>
+    <string name="pref_mailbcc1_text_depend">Bcc 1（To 1に連動）</string>
+    <string name="pref_mailbcc2_text">Bcc 2</string>
+    <string name="pref_mailbcc2_text_depend">Bcc 2（To 2に連動）</string>
+    <string name="pref_mailbcc3_text">Bcc 3</string>
+    <string name="pref_mailbcc3_text_depend">Bcc 3（To 3に連動）</string>
+    <string name="pref_subject1_text">件名 1</string>
+    <string name="pref_subject1_text_depend">件名 1（To 1に連動）</string>
+    <string name="pref_subject2_text">件名 2</string>
+    <string name="pref_subject2_text_depend">件名 2（To 2に連動）</string>
+    <string name="pref_subject3_text">件名 3</string>
+    <string name="pref_subject3_text_depend">件名 3（To 3に連動）</string>
+    <string name="pref_prefix_text">ヘッダ</string>
+    <string name="pref_prefix_text_depend">ヘッダ（To 1に連動）</string>
+    <string name="pref_prefix2_text">ヘッダ 2（To 2に連動）</string>
+    <string name="pref_prefix3_text">ヘッダ 3（To 3に連動）</string>
+    <string name="pref_body1_text">本文 1</string>
+    <string name="pref_body1_text_depend">本文 1（To 1に連動）</string>
+    <string name="pref_body2_text">本文 2</string>
+    <string name="pref_body2_text_depend">本文 2（To 2に連動）</string>
+    <string name="pref_body3_text">本文 3</string>
+    <string name="pref_body3_text_depend">本文 3（To 3に連動）</string>
+    <string name="pref_suffix_text">フッタ</string>
+    <string name="pref_suffix_text_depend">フッタ（To 1に連動）</string>
+    <string name="pref_suffix2_text">フッタ 2（To 2に連動）</string>
+    <string name="pref_suffix3_text">フッタ 3（To 3に連動）</string>
+    <string name="pref_usedatemacro_text">Dateマクロを使用する</string>
+    <string name="pref_usedatemacro_summary">$で囲うDateマクロが使えます。 ((例) $yyyy.MM.dd$ -> 2011.04.30) 詳細は\"SimpleDateFormat Java\"でGoogleへ!</string>
+    <string name="pref_linkedto_text">項目をToに連動する</string>
+    <string name="pref_linkedto_summary">Toの1,2,3に連動してCC,BCC,件名,ヘッダ,本体,フッタを変更します。</string>
+
+    <string name="pref_mailto1_dialogtitle">To 1を入力</string>
+    <string name="pref_mailto2_dialogtitle">To 2を入力</string>
+    <string name="pref_mailto3_dialogtitle">To 3を入力</string>
+    <string name="pref_mailcc1_dialogtitle">Cc 1を入力</string>
+    <string name="pref_mailcc2_dialogtitle">Cc 2を入力</string>
+    <string name="pref_mailcc3_dialogtitle">Cc 3を入力</string>
+    <string name="pref_mailbcc1_dialogtitle">Bcc 1を入力</string>
+    <string name="pref_mailbcc2_dialogtitle">Bcc 2を入力</string>
+    <string name="pref_mailbcc3_dialogtitle">Bcc 3を入力</string>
+    <string name="pref_subject1_dialogtitle">件名 1を入力</string>
+    <string name="pref_subject2_dialogtitle">件名 2を入力</string>
+    <string name="pref_subject3_dialogtitle">件名 3を入力</string>
+    <string name="pref_prefix_dialogtitle">ヘッダを入力</string>
+    <string name="pref_prefix2_dialogtitle">ヘッダ 2を入力</string>
+    <string name="pref_prefix3_dialogtitle">ヘッダ 3を入力</string>
+    <string name="pref_body1_dialogtitle">本体 1を入力</string>
+    <string name="pref_body2_dialogtitle">本体 2を入力</string>
+    <string name="pref_body3_dialogtitle">本体 3を入力</string>
+    <string name="pref_suffix_dialogtitle">フッタを入力</string>
+    <string name="pref_suffix2_dialogtitle">フッタ 2を入力</string>
+    <string name="pref_suffix3_dialogtitle">フッタ 3を入力</string>
+
+    <string name="pref_mailto1_defvalue">youtenredo@gmail.com</string>
+    <string name="pref_mailto2_defvalue"></string>
+    <string name="pref_mailto3_defvalue"></string>
+    <string name="pref_mailcc1_defvalue"></string>
+    <string name="pref_mailcc2_defvalue"></string>
+    <string name="pref_mailcc3_defvalue"></string>
+    <string name="pref_mailbcc1_defvalue"></string>
+    <string name="pref_mailbcc2_defvalue"></string>
+    <string name="pref_mailbcc3_defvalue"></string>
+    <string name="pref_subject1_defvalue">【有休 $yyyy.MM.dd$ Alice Android】</string>
+    <string name="pref_subject2_defvalue">【FLEX $yyyy.MM.dd$ 12:30- Alice Android】</string>
+    <string name="pref_subject3_defvalue"></string>
+    <string name="pref_prefix_defvalue">youtenさん\n\nAliceです。お疲れ様です。\n</string>
+    <string name="pref_prefix2_defvalue"></string>
+    <string name="pref_prefix3_defvalue"></string>
+    <string name="pref_body1_defvalue">申し訳ありません。\n本日体調不良につき、お休みさせていただきます。\n</string>
+    <string name="pref_body2_defvalue">申し訳ありません。\n本日体調不良につき、遅れて出社させていただきます。\n</string>
+    <string name="pref_body3_defvalue"></string>
+    <string name="pref_suffix_defvalue">以上、よろしくお願いします。\n----\nAlice Android</string>
+    <string name="pref_suffix2_defvalue"></string>
+    <string name="pref_suffix3_defvalue"></string>
+</resources>

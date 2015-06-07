@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_title">
+        <EditTextPreference
+            android:key="pref_key_mailto1"
+            android:title="@string/pref_mailto1_text"
+            android:dialogTitle="@string/pref_mailto1_dialogtitle"
+            android:defaultValue="@string/pref_mailto1_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_mailto2"
+            android:title="@string/pref_mailto2_text"
+            android:dialogTitle="@string/pref_mailto2_dialogtitle"
+            android:defaultValue="@string/pref_mailto2_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_mailto3"
+            android:title="@string/pref_mailto3_text"
+            android:dialogTitle="@string/pref_mailto3_dialogtitle"
+            android:defaultValue="@string/pref_mailto3_defvalue" />
+
+        <EditTextPreference
+            android:key="pref_key_mailcc1"
+            android:title="@string/pref_mailcc1_text"
+            android:dialogTitle="@string/pref_mailcc1_dialogtitle"
+            android:defaultValue="@string/pref_mailcc1_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_mailcc2"
+            android:title="@string/pref_mailcc2_text"
+            android:dialogTitle="@string/pref_mailcc2_dialogtitle"
+            android:defaultValue="@string/pref_mailcc2_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_mailcc3"
+            android:title="@string/pref_mailcc3_text"
+            android:dialogTitle="@string/pref_mailcc3_dialogtitle"
+            android:defaultValue="@string/pref_mailcc3_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_mailbcc1"
+            android:title="@string/pref_mailbcc1_text"
+            android:dialogTitle="@string/pref_mailbcc1_dialogtitle"
+            android:defaultValue="@string/pref_mailbcc1_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_mailbcc2"
+            android:title="@string/pref_mailbcc2_text"
+            android:dialogTitle="@string/pref_mailbcc2_dialogtitle"
+            android:defaultValue="@string/pref_mailbcc2_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_mailbcc3"
+            android:title="@string/pref_mailbcc3_text"
+            android:dialogTitle="@string/pref_mailbcc3_dialogtitle"
+            android:defaultValue="@string/pref_mailbcc3_defvalue" />
+
+        <EditTextPreference
+            android:key="pref_key_subject1"
+            android:title="@string/pref_subject1_text"
+            android:dialogTitle="@string/pref_subject1_dialogtitle"
+            android:defaultValue="@string/pref_subject1_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_subject2"
+            android:title="@string/pref_subject2_text"
+            android:dialogTitle="@string/pref_subject2_dialogtitle"
+            android:defaultValue="@string/pref_subject2_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_subject3"
+            android:title="@string/pref_subject3_text"
+            android:dialogTitle="@string/pref_subject3_dialogtitle"
+            android:defaultValue="@string/pref_subject3_defvalue" />
+
+        <EditTextPreference
+            android:key="pref_key_prefix"
+            android:title="@string/pref_prefix_text"
+            android:dialogTitle="@string/pref_prefix_dialogtitle"
+            android:defaultValue="@string/pref_prefix_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_prefix2"
+            android:dependency="pref_key_linkedto"
+            android:title="@string/pref_prefix2_text"
+            android:dialogTitle="@string/pref_prefix2_dialogtitle"
+            android:defaultValue="@string/pref_prefix2_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_prefix3"
+            android:dependency="pref_key_linkedto"
+            android:title="@string/pref_prefix3_text"
+            android:dialogTitle="@string/pref_prefix3_dialogtitle"
+            android:defaultValue="@string/pref_prefix3_defvalue" />
+
+        <EditTextPreference
+            android:key="pref_key_body1"
+            android:title="@string/pref_body1_text"
+            android:dialogTitle="@string/pref_body1_dialogtitle"
+            android:defaultValue="@string/pref_body1_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_body2"
+            android:title="@string/pref_body2_text"
+            android:dialogTitle="@string/pref_body2_dialogtitle"
+            android:defaultValue="@string/pref_body2_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_body3"
+            android:title="@string/pref_body3_text"
+            android:dialogTitle="@string/pref_body3_dialogtitle"
+            android:defaultValue="@string/pref_body3_defvalue" />
+
+        <EditTextPreference
+            android:key="pref_key_suffix"
+            android:title="@string/pref_suffix_text"
+            android:dialogTitle="@string/pref_suffix_dialogtitle"
+            android:defaultValue="@string/pref_suffix_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_suffix2"
+            android:dependency="pref_key_linkedto"
+            android:title="@string/pref_suffix2_text"
+            android:dialogTitle="@string/pref_suffix2_dialogtitle"
+            android:defaultValue="@string/pref_suffix2_defvalue" />
+        <EditTextPreference
+            android:key="pref_key_suffix3"
+            android:dependency="pref_key_linkedto"
+            android:title="@string/pref_suffix3_text"
+            android:dialogTitle="@string/pref_suffix3_dialogtitle"
+            android:defaultValue="@string/pref_suffix3_defvalue" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_advanced">
+        <CheckBoxPreference
+            android:key="pref_key_usedatemacro"
+            android:enabled="false"
+            android:defaultValue="true"
+            android:title="@string/pref_usedatemacro_text"
+            android:summary="@string/pref_usedatemacro_summary" />
+        <CheckBoxPreference
+            android:key="pref_key_linkedto"
+            android:defaultValue="false"
+            android:title="@string/pref_linkedto_text"
+            android:summary="@string/pref_linkedto_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

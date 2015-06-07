@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FeelBadSend</string>
+
+    <!-- main -->
+    <string name="mailto_label_text">To:</string>
+    <string name="mailcc_label_text">Cc:</string>
+    <string name="mailbcc_label_text">Bcc:</string>
+    <string name="subject_label_text">Subject:</string>
+    <string name="text_label_text">Text:</string>
+    <string name="prefix_label_text">Prefix</string>
+    <string name="group_body_label_text">Body</string>
+    <string name="body_label_text">Body</string>
+    <string name="suffix_label_text">Suffix</string>
+    <string name="send_text">Send</string>
+
+    <!-- prefrence -->
+    <string name="pref_title">Settings</string>
+    <string name="pref_advanced">Advanced</string>
+    <string name="pref_mailto1_text">To: 1</string>
+    <string name="pref_mailto2_text">To: 2</string>
+    <string name="pref_mailto3_text">To: 3</string>
+    <string name="pref_mailcc1_text">Cc: 1</string>
+    <string name="pref_mailcc1_text_depend">Cc: 1 (Linked To: 1)</string>
+    <string name="pref_mailcc2_text">Cc: 2</string>
+    <string name="pref_mailcc2_text_depend">Cc: 2 (Linked To: 2)</string>
+    <string name="pref_mailcc3_text">Cc: 3</string>
+    <string name="pref_mailcc3_text_depend">Cc: 3 (Linked To: 3)</string>
+    <string name="pref_mailbcc1_text">Bcc: 1</string>
+    <string name="pref_mailbcc1_text_depend">Bcc: 1 (Linked To: 1)</string>
+    <string name="pref_mailbcc2_text">Bcc: 2</string>
+    <string name="pref_mailbcc2_text_depend">Bcc: 2 (Linked To: 2)</string>
+    <string name="pref_mailbcc3_text">Bcc: 3</string>
+    <string name="pref_mailbcc3_text_depend">bcc: 3 (Linked To: 3)</string>
+    <string name="pref_subject1_text">Subject 1</string>
+    <string name="pref_subject1_text_depend">Subject 1 (Linked To: 1)</string>
+    <string name="pref_subject2_text">Subject 2</string>
+    <string name="pref_subject2_text_depend">Subject 2 (Linked To: 2)</string>
+    <string name="pref_subject3_text">Subject 3</string>
+    <string name="pref_subject3_text_depend">Subject 3 (Linked To: 3)</string>
+    <string name="pref_prefix_text">Prefix</string>
+    <string name="pref_prefix_text_depend">Prefix (Linked To: 1)</string>
+    <string name="pref_prefix2_text">Prefix 2 (Linked To: 2)</string>
+    <string name="pref_prefix3_text">Prefix 3 (Linked To: 3)</string>
+    <string name="pref_body1_text">Body 1</string>
+    <string name="pref_body1_text_depend">Body 1 (Linked To: 1)</string>
+    <string name="pref_body2_text">Body 2</string>
+    <string name="pref_body2_text_depend">Body 2 (Linked To: 2)</string>
+    <string name="pref_body3_text">Body 3</string>
+    <string name="pref_body3_text_depend">Body 3 (Linked To: 3)</string>
+    <string name="pref_suffix_text">Suffix</string>
+    <string name="pref_suffix_text_depend">Suffix (Linked To: 1)</string>
+    <string name="pref_suffix2_text">Suffix 2 (Linked To: 2)</string>
+    <string name="pref_suffix3_text">Suffix 3 (Linked To: 3)</string>
+    <string name="pref_usedatemacro_text">Use Date Macro</string>
+    <string name="pref_usedatemacro_summary">You can use Date Macro from $ to $. ((ex.) $yyyy.MM.dd$ -> 2011.04.30) More detail, google://\"SimpleDateFormat Java\"!</string>
+    <string name="pref_linkedto_text">Items linked to the To:</string>
+    <string name="pref_linkedto_summary">Linking to the To:, change the Cc:, Bcc;, Subject, Prefix, Body, and Suffix.</string>
+
+    <string name="pref_mailto1_dialogtitle">Input To: 1</string>
+    <string name="pref_mailto2_dialogtitle">Input To: 2</string>
+    <string name="pref_mailto3_dialogtitle">Input To: 3</string>
+    <string name="pref_mailcc1_dialogtitle">Input Cc: 1</string>
+    <string name="pref_mailcc2_dialogtitle">Input Cc: 2</string>
+    <string name="pref_mailcc3_dialogtitle">Input Cc: 3</string>
+    <string name="pref_mailbcc1_dialogtitle">Input Bcc: 1</string>
+    <string name="pref_mailbcc2_dialogtitle">Input Bcc: 2</string>
+    <string name="pref_mailbcc3_dialogtitle">Input Bcc: 3</string>
+    <string name="pref_subject1_dialogtitle">Input Subject 1</string>
+    <string name="pref_subject2_dialogtitle">Input Subject 2</string>
+    <string name="pref_subject3_dialogtitle">Input Subject 3</string>
+    <string name="pref_prefix_dialogtitle">Input Prefix</string>
+    <string name="pref_prefix2_dialogtitle">Input Prefix 2</string>
+    <string name="pref_prefix3_dialogtitle">Input Prefix 3</string>
+    <string name="pref_body1_dialogtitle">Input Body 1</string>
+    <string name="pref_body2_dialogtitle">Input Body 2</string>
+    <string name="pref_body3_dialogtitle">Input Body 3</string>
+    <string name="pref_suffix_dialogtitle">Input Suffix</string>
+    <string name="pref_suffix2_dialogtitle">Input Suffix 2</string>
+    <string name="pref_suffix3_dialogtitle">Input Suffix 3</string>
+
+    <string name="pref_mailto1_defvalue">youtenredo@gmail.com</string>
+    <string name="pref_mailto2_defvalue"></string>
+    <string name="pref_mailto3_defvalue"></string>
+    <string name="pref_mailcc1_defvalue"></string>
+    <string name="pref_mailcc2_defvalue"></string>
+    <string name="pref_mailcc3_defvalue"></string>
+    <string name="pref_mailbcc1_defvalue"></string>
+    <string name="pref_mailbcc2_defvalue"></string>
+    <string name="pref_mailbcc3_defvalue"></string>
+    <string name="pref_subject1_defvalue">[Rest $yyyy.MM.dd$ Alice Android]</string>
+    <string name="pref_subject2_defvalue">[Delay $yyyy.MM.dd$ 12:30- Alice Android]</string>
+    <string name="pref_subject3_defvalue"></string>
+    <string name="pref_prefix_defvalue">Dear youten</string>
+    <string name="pref_prefix2_defvalue"></string>
+    <string name="pref_prefix3_defvalue"></string>
+    <string name="pref_body1_defvalue">I will take a rest because of bad health. </string>
+    <string name="pref_body2_defvalue">I will go to the office delaying because of bad health. </string>
+    <string name="pref_body3_defvalue"></string>
+    <string name="pref_suffix_defvalue">Regards,\n----\nAlice Android</string>
+    <string name="pref_suffix2_defvalue"></string>
+    <string name="pref_suffix3_defvalue"></string>
+</resources>

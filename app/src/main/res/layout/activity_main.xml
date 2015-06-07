@@ -1,0 +1,124 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dip"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/divider"
+            android:showDividers="middle"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider"
+                android:showDividers="middle"
+                android:stretchColumns="1" >
+
+                <!-- To: -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:text="@string/mailto_label_text" />
+                    <Spinner
+                        android:id="@+id/mailto_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <!-- Cc: -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:text="@string/mailcc_label_text" />
+                    <Spinner
+                        android:id="@+id/mailcc_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </TableRow>
+
+                <!-- Bcc: -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:text="@string/mailbcc_label_text" />
+                    <Spinner
+                        android:id="@+id/mailbcc_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </TableRow>
+            </TableLayout>
+
+            <!-- Subject -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/section_padding"
+                android:background="@color/primary"
+                android:textColor="@android:color/white"
+                android:text="@string/subject_label_text" />
+            <Spinner
+                android:id="@+id/subject_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/section_padding"
+                android:background="@color/primary"
+                android:textColor="@android:color/white"
+                android:text="@string/body_label_text" />
+            <!-- Prefix -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/prefix_label_text" />
+            <TextView
+                android:id="@+id/prefix_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!-- Body -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/body_label_text" />
+            <Spinner
+                android:id="@+id/body_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!-- Suffix -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/suffix_label_text" />
+            <TextView
+                android:id="@+id/suffix_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Send -->
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_text" />
+</LinearLayout>
